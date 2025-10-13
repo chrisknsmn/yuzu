@@ -5,7 +5,7 @@
 <section
 	class="
     w-full flex items-center justify-center
-    {variant === 'default' ? 'min-h-[calc(100vh-60px)]' : ''}
+    {variant === 'default' ? 'min-h-[calc(100vh-var(--nav-height))]' : ''}
     {variant === 'fit' ? 'min-h-fit' : ''}
     "
 >
