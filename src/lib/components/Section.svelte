@@ -4,8 +4,8 @@
 
 <section
 	class="
-    w-full border-4
-    {variant === 'default' ? 'min-h-screen' : ''}
+    w-full flex items-center justify-center
+    {variant === 'default' ? 'min-h-[calc(100vh-60px)]' : ''}
     {variant === 'fit' ? 'min-h-fit' : ''}
     "
 >
