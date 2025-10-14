@@ -14,7 +14,9 @@
 <Section>
 	<div class="flex flex-col gap-4 text-center">
 		<Title variant="h1">COUNTER <br /> {num}</Title>
-		<Button on:click={add}>ADD</Button>
-		<Button on:click={reset} variant="outline">RESET</Button>
+		<div class="w-full max-w-xs mx-auto flex flex-col gap-4">
+			<Button on:click={add}>ADD</Button>
+			<Button on:click={reset} variant="outline">RESET</Button>
+		</div>
 	</div>
 </Section>
