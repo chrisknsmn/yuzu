@@ -9,8 +9,8 @@
 	{disabled}
 	class="
     px-4 py-1 rounded-full font-medium cursor-pointer
-    {variant === 'default' ? 'border-0 bg-black text-white' : ''}
-    {variant === 'outline' ? 'border bg-white text-black' : ''}
+    {variant === 'default' ? 'bg-fg text-bg border-0' : ''}
+    {variant === 'outline' ? 'bg-bg text-fg border' : ''}
     "
 	on:click
 >

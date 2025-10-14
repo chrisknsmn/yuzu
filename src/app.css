@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
+@theme {
+	--color-bg: light-dark(#ffffff, #171717);
+	--color-fg: light-dark(#171717, #ffffff);
+	--color-prm: oklch(0.65272 0.23543 33.869);
+}
+
 :root {
 	--nav-height: 60px;
+	color-scheme: light dark;
 }
 
 body {
