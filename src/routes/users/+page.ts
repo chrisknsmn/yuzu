@@ -5,7 +5,7 @@ export async function load() {
 	// const response = await fetch('https://api.example.com/users');
 	// const users = await response.json();
 
-	// Simulate network delay
+	// Delay
 	await new Promise((resolve) => setTimeout(resolve, 300));
 
 	return {
