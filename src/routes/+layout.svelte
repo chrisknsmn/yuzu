@@ -8,6 +8,12 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<script>
+		const theme = localStorage.getItem('theme');
+		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+		const isDark = theme === 'dark' || (!theme && prefersDark);
+		document.documentElement.style.colorScheme = isDark ? 'dark' : 'light';
+	</script>
 </svelte:head>
 
 <Nav />
