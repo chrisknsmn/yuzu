@@ -16,5 +16,4 @@
 	</script>
 </svelte:head>
 
-<Nav />
 {@render children?.()}
